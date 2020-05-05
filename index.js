@@ -1,10 +1,11 @@
+const Settings = require('./Settings.json');
 const Discord = require('discord.js');
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
 const adapter = new FileSync('db.json');
 const db = low(adapter);
 const client = new Discord.Client();
-client.login(process.env.test_bot);
+client.login(Settings.token);
 
 async function updateCounters(gm) {
   let all = gm.guild.memberCount;
