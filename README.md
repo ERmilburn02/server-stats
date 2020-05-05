@@ -5,7 +5,7 @@ See [here](https://github.com/ERmilburn02/server-stats/tree/37be6d67e2662678c7c0
 
 ## Adding the bot to your server
 
-[CLICK HERE](https://discord.com/oauth2/authorize?client_id=707050731873501226&scope=bot&permissions=3088) to add the bot to your server.
+[CLICK HERE](https://discord.com/oauth2/authorize?client_id=707050731873501226&scope=bot&permissions=265296) to add the bot to your server.
 Once the bot is in your server, run the following command:
 
 ```
