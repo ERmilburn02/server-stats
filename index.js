@@ -58,3 +58,6 @@ client.on('guildCreate', (g) => {
     .push({ id: g.id, allID: '-1', users: g.memberCount })
     .write();
 });
+client.on('guildDelete', (g) => {
+  db.get('members').remove({ id: g.id }).write();
+});
