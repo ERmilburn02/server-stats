@@ -5,14 +5,7 @@ See [here](https://github.com/ERmilburn02/server-stats/tree/37be6d67e2662678c7c0
 
 ## Adding the bot to your server
 
-[CLICK HERE](https://discord.com/oauth2/authorize?client_id=707050731873501226&scope=bot&permissions=265296) to add the bot to your server.
-Once the bot is in your server, run the following command:
-
-```
-.setchannel <ID>
-```
-
-where `<ID>` is the ID of the voice channel.
+I NO LONGER HOST THE BOT! IF YOU WANT IT IN YOUR SERVER, PLEASE HOST IT YOURSELF!
 
 ## Self-hosting the bot
 
@@ -23,4 +16,14 @@ npm i
 node .
 ```
 
-and the bot will run. Or you can just add my copy of the bot.
+and the bot will run.
+
+## Using the bot
+
+Once the bot is in your server, run the following command:
+
+```
+.setchannel <ID>
+```
+
+where `<ID>` is the ID of the voice channel.
