@@ -28,6 +28,13 @@ client.on('ready', () => {
 });
 
 client.on('message', async (message) => {
+  let g = message.guild;
+  let _dbCheck = await db.get('members').find({ id: g.id }).value();
+  if (_dbCheck == undefined) {
+	  db.get('members')
+        .push({ id: g.id, allID: '-1', users: g.memberCount })
+        .write();
+    }
   if (message.content.toLowerCase().startsWith('.setchannel')) {
     if (message.member.hasPermission('MANAGE_CHANNELS', false, true, true)) {
       let id = message.content.substring(12);
