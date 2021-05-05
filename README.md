@@ -1,3 +1,5 @@
+# THIS REPO IS NO LONGER MAINTAINED AND WILL BE ARCHIVED SOON
+
 # Server Stats
 
 A bot that counts the number of members in a server
